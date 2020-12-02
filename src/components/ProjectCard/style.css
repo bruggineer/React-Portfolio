@@ -24,7 +24,7 @@
   } */
 
   
-#slide {
+.intro {
         display:block;
         position:absolute;
         top:0;
@@ -39,15 +39,32 @@
         transition: width 800ms ease-out, opacity 500ms linear;
     }
 
-    #slide:hover, #slide:focus {
+    .more {
+      vertical-align: middle;
+      color: white;
+      height: 3rem;
+      width: 3rem; 
+      padding-right: 2rem;
+      float: right;
+    }
+
+    .more:hover > .intro, .more:focus > .intro {
         width: 0;
         opacity: 0;
+    }
+
+    .link {
+      vertical-align: middle;
+      color: white;
+      height: 5rem;
+      width: 5rem; 
+      padding-left: 4rem;
     }
 
     .description{
         width:66%;
         min-width:200px;
-        padding-top: 20rem;
+        padding-top: 6rem;
         margin: auto;
         flex-wrap: nowrap;
     } 
@@ -57,32 +74,28 @@
 /* media queries to adjust card height per viewport */
 /* from smallest up to 1200px */
 @media (max-width: 1200px) {
-    /* #portfolio-main, #slide { */
-        .card {
+    #portfolio-main, .intro {
       height: 487px;
     }
    }
 
 /*from smallest up to 600px */
    @media (max-width:600px) {
-    /* #portfolio-main, #slide { */
-        .card {
+    #portfolio-main, .intro {
       height: 406px;
     }
   }
 
 /* from smallest up to 475px */
    @media (max-width:475px) {
-    /* #portfolio-main, #slide { */
-        .card {
+    #portfolio-main, .intro {
     height: 215px;
   }
  } 
 
  /* at 1200 or > */
 @media (min-width: 1200px){
-    /* #portfolio-main, #slide{ */
-        .card{
+    #portfolio-main, .intro{
       height: 773px;
     }
    }
