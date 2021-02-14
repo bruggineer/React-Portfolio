@@ -5,17 +5,19 @@ export default function ContactForm() {
 
     function sendEmail(e) {
         e.preventDefault();
-
-
-        emailjs.sendForm('default_service', 'contact_form', e.target, 'user_q7Y4TwUydLQKj2h4J96gv')
-            .then((_result) => {
+        const user_id = process.env.REACT_APP_USER;
+        console.log(user_id)
+        var message = e.target;
+        emailjs.sendForm('default_service', 'contact_form', message, user_id)
+            .then((result) => {
                 console.log('SUCCESS!');
                 alert("Message sent. Thank you.");
             }, (error) => {
                 console.log('FAILED...', error);
                 alert("Message failed to send.");
-            });
-    };
+            })
+        document.getElementById("contact-form").reset()
+    }
 
     return (
         <form id="contact-form" className="contact-from" onSubmit={sendEmail}>
