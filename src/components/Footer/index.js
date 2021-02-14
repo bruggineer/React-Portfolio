@@ -1,13 +1,14 @@
-import React from "../../../node_modules/react";
+import React from "react";
 import "./style.css";
 import Resume from "../../assets/Resume.pdf";
 import ResumeIcon from "../../assets/resume-icon.png";
-import { Container } from "../../../node_modules/reactstrap";
-import { Col } from "../../../node_modules/reactstrap";
+import LinkedIn from "../../assets/linkedin-svgrepo-com.svg"
+import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
 
 function Footer() {
   return (
-    <Container fluid="true" xs className="footer p-3 mx-auto">
+    <Container fluid="true" className="footer p-3 mx-auto">
       <div className="row">
         <Col md={6} className="footer-contact list-unstyled mx-auto">
           <li>Teresa Bruggeman</li>
@@ -55,7 +56,7 @@ function Footer() {
             <img
               className="float-md-right pt-2 pt-md-0"
               id="linkedin"
-              src="https://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png"
+              src={LinkedIn}
               alt="LinkedIn Logo"
               height="60px"
             ></img>

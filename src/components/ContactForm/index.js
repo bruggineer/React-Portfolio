@@ -1,41 +1,48 @@
-import React from "../../../node_modules/react";
-import emailjs from '../../../node_modules/emailjs-com';
+import React from "react";
+import emailjs from 'emailjs-com';
 
 export default function ContactForm() {
 
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('gmail', 'template_0JIjqspv', e.target, 'user_q7Y4TwUydLQKj2h4J96gv')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
 
-            const target="";
-    }
+        emailjs.sendForm('default_service', 'contact_form', e.target, 'user_q7Y4TwUydLQKj2h4J96gv')
+            .then((_result) => {
+                console.log('SUCCESS!');
+                alert("Message sent. Thank you.");
+            }, (error) => {
+                console.log('FAILED...', error);
+                alert("Message failed to send.");
+            });
+    };
 
     return (
-        <form className="contact-form" onSubmit={sendEmail}>
+        <form id="contact-form" className="contact-from" onSubmit={sendEmail}>
             <div className="form-group">
                 <label htmlFor="comment">Message:</label>
-                <textarea name="message" className="form-control" rows="5" maxLength="1000" required ></textarea>
+                <textarea name="message" id="comment" className="form-control" rows="5" maxLength="1000" required ></textarea>
             </div>
 
             <div className="form-group">
-                <label htmlFor="messengerEmail">Your email address</label>
-                <input type="email" name="user_email" className="form-control" required id="messengerEmail1"
+                <label htmlFor="userName">Your name, please</label>
+                <input type="text" name="from_name" className="form-control" required id="userName"
+                    aria-describedby="nameHelp"></input>
+            </div>
+
+            <div className="form-group">
+                <label htmlFor="userEmail">Your email address</label>
+                <input type="email" name="user_email" className="form-control" required id="userEmail1"
                     aria-describedby="emailHelp"></input>
                 <small id="emailHelp" className="form-text">I'll never share your email with anyone
                             else.</small>
             </div>
 
             <div className="form-group">
-                <section method="post" action="contact.php">
-                    <button type="submit" name="submit" className="btn btn-dark">Send Message</button>
-                </section>
+                <label htmlFor="submitButton">
+                    <button type="submit" name="submit" id="submitButton" className="btn btn-dark">Send Message</button>
+                </label>
             </div>
         </form>
-    )
-}
+    );
+};
