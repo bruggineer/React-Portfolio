@@ -20,7 +20,7 @@ export default function ContactForm() {
     }
 
     return (
-        <form id="contact-form" className="contact-from" onSubmit={sendEmail}>
+        <form id="contact-form" action="?" method="POST" className="contact-from" onSubmit={sendEmail}>
             <div className="form-group">
                 <label htmlFor="comment">Message:</label>
                 <textarea name="message" id="comment" className="form-control" rows="5" maxLength="1000" required ></textarea>
@@ -40,9 +40,9 @@ export default function ContactForm() {
                             else.</small>
             </div>
 
-            <div className="form-group">
+            <div className="form-group" method="post">
                 <label htmlFor="submitButton">
-                    <button type="submit" name="submit" id="submitButton" className="btn btn-dark">Send Message</button>
+                    <button type="submit" name="buttonSub" id="subButton" className="btn btn-dark g-recaptcha" data-sitekey="6Le-TVsaAAAAABeaSLrChjw5npL-eIv095tqtcyg" data-badge="inline" data-callback='sendEmail'>Send Message</button>
                 </label>
             </div>
         </form>
