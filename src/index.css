@@ -1,0 +1,65 @@
+/* responsive styles */
+
+@media screen and (max-width: 768px) {
+  #avatar {
+    float: none!important;
+    overflow: auto;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .avatar {
+    text-align: center;
+  }
+}
+
+/* font size adjustment for larger screens*/
+
+/* 1rem = 16px*/
+
+/* Small in portrait view (phones, 544p and up) */
+
+@media (min-width: 544px) {
+  body {
+    font-size: 1.0rem;
+  }
+  h1 {
+    font-size: 1.75rem;
+  }
+  h2 {
+    font-size: 1.25rem
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1.25rem;
+  }
+  h1 {
+    font-size: 2.0rem;
+  }
+  h2 {
+    font-size: 1.50rem
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+  body {
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 2.25rem;
+  }
+  h2 {
+    font-size: 1.75rem
+  }
+  .jumbotron {
+    padding: 4rem;
+  }
+}
+
