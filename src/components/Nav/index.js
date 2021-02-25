@@ -13,7 +13,7 @@ function Nav() {
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul className="navbar-nav float-right">
                     <li className="nav-item">
-                        <Link to='/' className={window.location.pathname === '/' || window.location.pathname === '/home' ? "nav-link active" : "nav-link"} >Bio</Link>
+                        <Link to='/' className={window.location.pathname === '/' || window.location.pathname === '/bio' ? "nav-link active" : "nav-link"} >Bio</Link>
                     </li>
                     <li className="nav-item">
                         <Link to='/portfolio' className={window.location.pathname === '/portfolio' ? "nav-link active" : "nav-link"} >Portfolio</Link>
