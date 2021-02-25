@@ -4,7 +4,8 @@
   "private": true,
   "description": "React Portfolio of bruggineer (Teresa Bruggeman)",
   "main": "server.js",
-  "proxy": "http://localhost/8080",
+  "proxy": "http://localhost/8080/",
+  "homepage": "https://bruggineer.github.io/PortfolioUpdated/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bruggineer/PortfolioUpdated.git"
