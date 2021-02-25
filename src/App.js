@@ -9,18 +9,18 @@ import Wrapper from "./components/Wrapper";
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 
-function App(projects) {  
-  
+function App(projects) {
+
   return (
     <Router>
-        <Header></Header>
-        <Wrapper>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/home" component={Home} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
-        </Wrapper>
-        <Footer></Footer>
+      <Header></Header>
+      <Wrapper>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/home" component={Home} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/contact" component={Contact} />
+      </Wrapper>
+      <Footer></Footer>
     </Router>
   );
 }
