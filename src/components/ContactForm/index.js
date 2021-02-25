@@ -5,8 +5,8 @@ export default function ContactForm() {
 
     function sendEmail(e) {
         e.preventDefault();
-
-        const user_id = process.env.REACT_APP_EMAILJS_USERID;
+        const user_id = process.env.REACT_APP_USER;
+        console.log(user_id)
         var message = e.target;
         emailjs.sendForm('default_service', 'contact_form', message, user_id)
             .then((result) => {
@@ -20,7 +20,7 @@ export default function ContactForm() {
     }
 
     return (
-        <form id="contact-form" action="?" method="POST" className="contact-from" onSubmit={sendEmail}>
+        <form id="contact-form" className="contact-from" onSubmit={sendEmail}>
             <div className="form-group">
                 <label htmlFor="comment">Message:</label>
                 <textarea name="message" id="comment" className="form-control" rows="5" maxLength="1000" required ></textarea>
@@ -40,9 +40,9 @@ export default function ContactForm() {
                             else.</small>
             </div>
 
-            <div className="form-group" method="post">
+            <div className="form-group">
                 <label htmlFor="submitButton">
-                    <button type="submit" name="buttonSub" id="subButton" className="btn btn-dark g-recaptcha" data-sitekey="6Le-TVsaAAAAABeaSLrChjw5npL-eIv095tqtcyg" data-badge="inline" data-callback='sendEmail'>Send Message</button>
+                    <button type="submit" name="submit" id="submitButton" className="btn btn-dark">Send Message</button>
                 </label>
             </div>
         </form>
