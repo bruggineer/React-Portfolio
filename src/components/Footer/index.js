@@ -1,7 +1,8 @@
 import React from "react";
 import "./style.css";
-import Resume from "../../assets/Resume.pdf";
+import Resume from "../../assets/Bruggeman-Resume-v2.1.pdf";
 import ResumeIcon from "../../assets/resume-icon.png";
+import Octocat from "../../assets/GitHub-Mark-64px.png"
 import LinkedIn from "../../assets/linkedin-svgrepo-com.svg"
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
@@ -13,10 +14,10 @@ function Footer() {
         <Col md={6} className="footer-contact list-unstyled mx-auto">
           <li>Teresa Bruggeman</li>
           <li>
-            <a href="tel:970-286-8313">503-320-2226</a>
+            <a href="tel:503-320-2226" target="_self">503-320-2226</a>
           </li>
           <li>
-            <a href="mailto:tsbruggeman@gmail.com">bruggineer@gmail.com</a>
+            <a href="mailto:bruggineer@gmail.com" target="_blank">bruggineer@gmail.com</a>
           </li>
         </Col>
         <Col md={6} className="footer-links list-unstyled mx-auto">
@@ -29,8 +30,8 @@ function Footer() {
             <img
               id="github"
               className="float-md-right pt-2 pt-md-0"
-              src="https://ctl.s6img.com/society6/img/y-xZ_syD7LhIJOGtpdTU08ra6Aw/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/8e29a2e79387449caa28090d71f489e3/~~/github-logo-prints.jpg"
-              alt="LinkedIn Logo"
+              src={Octocat}
+              alt="GitHub Logo link"
               height="60px"
             ></img>
           </a>
@@ -43,7 +44,7 @@ function Footer() {
             <img
               className="float-md-right pt-2 pt-md-0"
               src={ResumeIcon}
-              alt="resume"
+              alt="resume icon link"
               height="60px"
             ></img>
           </a>
@@ -57,7 +58,7 @@ function Footer() {
               className="float-md-right pt-2 pt-md-0"
               id="linkedin"
               src={LinkedIn}
-              alt="LinkedIn Logo"
+              alt="LinkedIn Logo link"
               height="60px"
             ></img>
           </a>
