@@ -7,7 +7,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 //code for dev
-app.use('/static', express.static(path.join(__dirname, 'public')))
+app.use(express.static(path.join(__dirname, 'public')))
+app.use(express.static(path.join(__dirname, 'src', 'assets')))
+
 
 //code for gh-pages
 // app.use(express.static(path.join(__dirname, "..", "build")));
