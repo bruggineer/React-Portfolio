@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.use(express.static(path.join(__dirname, 'src', 'assets')))
 
 
-//code for gh-pages
+// //code for gh-pages build
 // app.use(express.static(path.join(__dirname, "..", "build")));
 
 // app.use((req, res, next) => {
