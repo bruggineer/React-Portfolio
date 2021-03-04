@@ -4,7 +4,7 @@ import ProjectCard from '../../components/ProjectCard';
 import Wrapper from '../../components/Wrapper';
 import projects from '../../projects.json';
 
-function Portfolio() {
+export default function Portfolio() {
     return (
         <Wrapper>
             {projects.map(project => (
@@ -24,4 +24,3 @@ function Portfolio() {
     )
 };
 
-export default Portfolio;

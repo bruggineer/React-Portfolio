@@ -6,9 +6,9 @@ export default function ContactForm() {
     function sendEmail(e) {
         e.preventDefault();
         const user_id = process.env.REACT_APP_USER;
-        console.log(user_id)
+        console.log(user_id);
         var message = e.target;
-        emailjs.sendForm('default_service', 'contact_form', message, user_id)
+        emailjs.sendForm('default_service', 'template_0jgqmbw', message, user_id)
             .then((result) => {
                 console.log('SUCCESS!');
                 alert("Message sent. Thank you.");

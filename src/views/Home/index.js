@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import "./style.css"
 import headshot from "../../assets/images/headshot.jpg"
 
-function Home() {
+export default function Home() {
     return (
         <Container fluid="md">
             <div id="row-1" className="row justify-content-center">
@@ -27,5 +27,3 @@ function Home() {
         </Container>
     )
 };
-
-export default Home;
