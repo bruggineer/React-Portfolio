@@ -1,8 +1,8 @@
 import React from "react";
-import Nav from "../Nav"
+import Navigation from "../Navigation"
 
 export default function Header() {
     return (
-        <Nav />
+        <Navigation />
     )
 }

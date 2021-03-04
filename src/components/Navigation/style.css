@@ -1,0 +1,14 @@
+.navbar-dark {
+  background-color: #413256 !important;
+}
+
+navbar-brand, .nav-link {
+  color: #fffafa !important;
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+.nav-link:focus, .nav-link:hover, .nav-link.active {
+  color: #fffafa !important;
+  opacity: 0.5;
+}
