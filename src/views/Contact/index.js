@@ -3,7 +3,7 @@ import "./style.css";
 import ContactForm from "../../components/ContactForm";
 import Container from 'react-bootstrap/Container';
 
-function Contact() {
+export default function Contact() {
     return (
         <Container fluid="md">
             <section className="row justify-content-center">
@@ -16,5 +16,3 @@ function Contact() {
         </Container>
     )
 };
-
-export default Contact;
