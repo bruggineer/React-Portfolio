@@ -1,12 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./views/Home";
+import Portfolio from "./views/Portfolio";
+import Contact from "./views/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Wrapper from "./components/Wrapper";
-//import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 
 function App(projects) {
@@ -14,12 +12,12 @@ function App(projects) {
   return (
     <Router>
       <Header></Header>
-      <Wrapper>
+      <Switch>
         <Route exact path="/bio" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/" component={Home} />
-      </Wrapper>
+      </Switch>
       <Footer></Footer>
     </Router>
   );

@@ -17,7 +17,7 @@ function Footer() {
             <a href="tel:503-320-2226" target="_self">503-320-2226</a>
           </li>
           <li>
-            <a href="mailto:bruggineer@gmail.com" target="_blank">bruggineer@gmail.com</a>
+            <a href="mailto:bruggineer@gmail.com" target="_blank" rel="noopener noreferrer">bruggineer@gmail.com</a>
           </li>
         </Col>
         <Col md={6} className="footer-links list-unstyled mx-auto">
