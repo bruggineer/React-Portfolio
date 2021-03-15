@@ -1,14 +1,16 @@
 import React from "react";
 import emailjs from 'emailjs-com';
+import './style.css'
 
 export default function ContactForm() {
+    console.log('contactform comp is re-rendering')
 
     function sendEmail(e) {
         e.preventDefault();
         const user_id = process.env.REACT_APP_USER;
-        console.log(user_id)
+        console.log(user_id);
         var message = e.target;
-        emailjs.sendForm('default_service', 'contact_form', message, user_id)
+        emailjs.sendForm('default_service', 'template_0jgqmbw', message, user_id)
             .then((result) => {
                 console.log('SUCCESS!');
                 alert("Message sent. Thank you.");
@@ -36,7 +38,7 @@ export default function ContactForm() {
                 <label htmlFor="userEmail">Your email address</label>
                 <input type="email" name="user_email" className="form-control" required id="userEmail1"
                     aria-describedby="emailHelp"></input>
-                <small id="emailHelp" className="form-text">I'll never share your email with anyone
+                <small id="emailHelp" className="form-text text-muted">I'll never share your email with anyone
                             else.</small>
             </div>
 
