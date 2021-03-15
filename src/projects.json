@@ -3,7 +3,6 @@
         "id": 1,
         "img": "LootTracker",
         "title": "Team Project 3: LootTracker",
-        "team": "Teresa Bruggeman, Aaron Smith, Julian Secomb ",
         "repo": "https://github.com/bruggineer/Team-3-LootTracker",
         "site": "https://loot-trackerz.herokuapp.com/home",
         "blurb": "Gamers set and manage their spending budget by choosing games for their Wish Lists. MySql via Sequelize stores the data and React delivers the UI."
@@ -12,7 +11,6 @@
         "id": 2,
         "img": "FoodTrak",
         "title": "Team Project 2: FoodTrak",
-        "team": "Teresa Bruggeman, Matt Leuer, Ken Williams  ",
         "repo": "https://github.com/bruggineer/Team-2-FoodTrak",
         "site": "https://trackfood.herokuapp.com/",
         "blurb": "Gamers set and manage their spending budget by choosing games for their Wish Lists. MySql via Sequelize stores the data and React delivers the UI."
@@ -21,16 +19,24 @@
         "id": 3,
         "img": "Shuffle",
         "title": "Team Project 1: Shuffle",
-        "team": "Teresa Bruggeman, Linus Schief, Ari Gockel, Liz Muñoz",
         "repo": "https://github.com/bruggineer/Shuffle",
         "site": "https://bruggineer.github.io/Shuffle/",
-        "blurb": "Astrological app used API calls to aggregate zodia content as cards are flipped"
+        "blurb": "Astrological app used API calls to aggregate zodia content as cards are flipped",
+        "tech": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "NodeJS"
+        ],
+        "concepts": [
+            "MVH",
+            "OOP"
+        ]
     },
     {
         "id": 4,
         "img": "Burgers",
         "title": "Living Life on Burgers",
-        "team": "",
         "repo": "https://github.com/bruggineer/LivingLifeonBurgers",
         "site": "https://warm-thicket-72311.herokuapp.com/",
         "blurb": "Full Stack Application with Heroku deployment using JAWSDB."
@@ -39,7 +45,6 @@
         "id": 5,
         "img": "WeatherDash",
         "title": "Weather Dashboard",
-        "team": "",
         "repo": "https://bruggineer.github.io/Weather-Dashboard/",
         "site": "https://bruggineer.github.io/Weather-Dashboard/",
         "blurb": "Weather Dashboard displays current weather at searched for city along with a five-day forecast. The weather curious can access the same info for any city they've previously explored."
@@ -48,7 +53,6 @@
         "id": 6,
         "img": "ExpenseTracker",
         "title": "Expense Tracker",
-        "team": "",
         "repo": "https://github.com/bruggineer/ExpenseTracker",
         "site": "https://sharp-fermi-6e729c.netlify.app/",
         "blurb": "React based app for tracking expenses by category."
@@ -57,9 +61,8 @@
         "id": 7,
         "img": "Passwordgenerator",
         "title": "Random Password Generator",
-        "team": "",
         "repo": "https://github.com/bruggineer/Password-Generator",
         "site": "https://bruggineer.github.io/Password-Generator/",
         "blurb": "Generates a random password based on user-selected criteria. Features dynamically updated HTML and CSS powered by JavaScript."
     }
-  ]
+]

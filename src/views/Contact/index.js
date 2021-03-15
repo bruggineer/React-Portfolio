@@ -1,13 +1,14 @@
 import React from 'react';
-import "./style.css";
 import ContactForm from "../../components/ContactForm";
 import Container from 'react-bootstrap/Container';
 
-function Contact() {
+export default function Contact() {
+    console.log('contact view is re-rendering')
+
     return (
-        <Container fluid="md">
-            <section className="row justify-content-center">
-                <div className="col-md-7 mt-2">
+        <Container fluid no-gutters>
+            <section id="contact-view" className="row justify-content-center mt-10">
+                <div className="col-sm-7 pt-4 px-2">
                     <h1>Let's talk</h1>
                     <ContactForm ></ContactForm>
                 </div>
@@ -16,5 +17,3 @@ function Contact() {
         </Container>
     )
 };
-
-export default Contact;

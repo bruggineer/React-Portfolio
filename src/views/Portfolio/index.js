@@ -1,27 +1,32 @@
 import React from 'react';
-import "./style.css";
 import ProjectCard from '../../components/ProjectCard';
-import Wrapper from '../../components/Wrapper';
 import projects from '../../projects.json';
+import { Container } from 'react-bootstrap';
 
-function Portfolio() {
+export default function Portfolio() {
+    console.log('portfolio view is re-rendering')
+
+
     return (
-        <Wrapper>
-            {projects.map(project => (
-                <ProjectCard
-                    id={project.id}
-                    key={project.id}
-                    title={project.title}
-                    img={project.img}
-                    team={project.team}
-                    repo={project.repo}
-                    site={project.site}
-                    blurb={project.blurb}
-                />
-            ))
-            }
-        </Wrapper >
+        <Container fluid className='px-0' id="portfolio-view">
+            <div className="row no-gutters">
+                {projects.map(project => (
+                    <ProjectCard
+                        id={project.id}
+                        key={project.id}
+                        title={project.title}
+                        img={project.img}
+                        team={project.team}
+                        repo={project.repo}
+                        site={project.site}
+                        blurb={project.blurb}
+                        tech={project.tech}
+                        concepts={project.concepts}
+                    />
+                ))
+                }
+            </div>
+        </Container>
     )
 };
 
-export default Portfolio;
