@@ -59,7 +59,7 @@
     },
     {
         "id": 7,
-        "img": "Passwordgenerator",
+        "img": "PasswordGen",
         "title": "Random Password Generator",
         "repo": "https://github.com/bruggineer/Password-Generator",
         "site": "https://bruggineer.github.io/Password-Generator/",

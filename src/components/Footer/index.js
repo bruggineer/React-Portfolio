@@ -5,15 +5,15 @@ import ResumeIcon from "../../assets/pdf-128.png";
 import Octocat from "../../assets/github-8-128.png"
 import LinkedIn from "../../assets/linkedin-6-128.png"
 import Container from "react-bootstrap/Container";
-import Col from "react-bootstrap/Col";
+import { Col, Row } from "react-bootstrap";
 
 function Footer() {
   console.log('footer comp is re-rendering');
 
   return (
     <Container fluid className="footer">
-      <div px-1 className="row px-1">
-        <Col sm={6} className="d-flex flex-column footer-contact list-unstyled">
+      <Row px-1 className="px-1">
+        <Col sm={6} d-flex flex-column footer-contact>
           <div>
             <a className="cta align-left" href="tel:503-320-2226" target="_self">503.320.2226</a>
           </div>
@@ -62,7 +62,7 @@ function Footer() {
             ></img>
           </a>
         </Col>
-      </div>
+      </Row>
     </Container>
   );
 }
