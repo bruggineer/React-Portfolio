@@ -1,5 +1,5 @@
 #bio-view {
-  height: 1563px;
+  min-height: 1563px;
 }
 
 .bio-box {
@@ -9,6 +9,7 @@
 .jumbotron {
   display: flex;
   text-align: left;
+  background-color: #f5f5f5;
 }
 
 /*bio typography */
