@@ -7,8 +7,8 @@ export default function Contact() {
 
     return (
         <Container fluid no-gutters>
-            <section id="contact-view" className="row justify-content-center mt-10">
-                <div className="col-sm-7 pt-4 px-2">
+            <section id="contact-view" className="row mt-10">
+                <div className="col-sm-7 pt-4 px-2 mx-auto">
                     <h1>Let's talk</h1>
                     <ContactForm ></ContactForm>
                 </div>

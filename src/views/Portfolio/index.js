@@ -4,8 +4,7 @@ import projects from '../../projects.json';
 import { Container } from 'react-bootstrap';
 
 export default function Portfolio() {
-    console.log('portfolio view is re-rendering')
-
+    console.log('portfolio view is rendering')
 
     return (
         <>
@@ -16,13 +15,13 @@ export default function Portfolio() {
                             id={project.id}
                             key={project.id}
                             title={project.title}
+                            buttontitle={project.buttontitle}
                             img={project.img}
                             team={project.team}
                             repo={project.repo}
                             site={project.site}
                             blurb={project.blurb}
-                            tech={project.tech}
-                            concepts={project.concepts}
+                            blurb2={project.blurb2}
                         />
                     ))
                     }
