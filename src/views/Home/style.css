@@ -1,10 +1,12 @@
-#bio-view {
+/* Home view styling */
+
+div#bio-view {
   min-height: 1563px;
 }
 
-.bio-box {
+/* .bio-box {
   width: 100%;
-}
+} */
 
 .jumbotron {
   display: flex;

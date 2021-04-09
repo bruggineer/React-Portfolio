@@ -22,7 +22,7 @@ export default function ContactForm() {
     }
 
     return (
-        <form id="contact-form" className="contact-from" onSubmit={sendEmail}>
+        <form id="contact-form" className="contact-form" onSubmit={sendEmail}>
             <div className="form-group">
                 <label htmlFor="comment">Message:</label>
                 <textarea name="message" id="comment" className="form-control" rows="5" maxLength="1000" required ></textarea>
