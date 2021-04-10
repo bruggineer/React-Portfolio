@@ -1,26 +1,19 @@
 /* Home view styling */
 
-div#bio-view {
-  min-height: 1563px;
-}
-
-/* .bio-box {
-  width: 100%;
-} */
-
 .jumbotron {
   display: flex;
   text-align: left;
   background-color: #f5f5f5;
+  margin-bottom: 0;
 }
 
 /*bio typography */
 
-.bio {
-  max-width: 768px;
+.bio-blurb {
   letter-spacing: 0.02em;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  margin-bottom: 1.5rem;
 }
 
 /* headline styles */
@@ -30,7 +23,8 @@ div#bio-view {
 }
 
 .g-1, .g-2 {
-  margin: 0 auto;
+  margin: 0;
+  display: inline-block;
 }
 
 /* bio photo style */
@@ -38,9 +32,6 @@ div#bio-view {
 #avatar {
   width: 125px;
   height: 125px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 1rem;
   background-color: #d45f15;
   border: 8px solid #d45f15;
@@ -50,7 +41,7 @@ div#bio-view {
   clear: left;
 }
 
-/* wrap text to circle, negative margins, font sizes for sm-xl */
+/********************* Moble-first, responsive design media queries ******************************/
 
 @media(min-width: 576px) {
   .jumbotron {
@@ -67,7 +58,7 @@ div#bio-view {
   }
   .greeting {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.25rem;
   }
   .g-1 {
     margin-left: -1.4rem;
@@ -76,33 +67,56 @@ div#bio-view {
   .g-2 {
     margin-left: 0;
   }
-  .bio {
+  .bio-blurb {
     letter-spacing: .01em;
+    font-size: 1.75rem;
+    line-height: 2.6rem;
+    margin-bottom: 2rem;
+  }
+  p.motto {
     font-size: 1.5rem;
-    line-height: 1.75rem;
   }
 }
 
 @media(min-width: 768px) {
-  .bio {
-    font-size: 1.5rem;
-    line-height: 1.95rem;
+  .greeting {
+    font-size: 2.5rem;
+  }
+  .bio-blurb {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 2.5rem;
+  }
+  p.motto {
+    font-size: 1.75rem;
   }
 }
 
 @media(min-width: 992px) {
-  .bio {
-    max-width: 1200px;
-    line-height: 2rem;
+  .greeting {
+    font-size: 2.75rem;
+  }
+  .bio-blurb {
+    font-size: 2.25rem;
+    line-height: 3.38rem;
+    margin-bottom: 2.75rem;
+  }
+  p.motto {
+    font-size: 2rem;
   }
 }
 
 @media(min-width: 1200px) {
   .greeting {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
-  .bio {
-    font-size: 1.75rem;
-    line-height: 2.25rem;
+  .bio-blurb {
+    max-width: 1200px;
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+    margin-bottom: 3rem;
+  }
+  p.motto {
+    font-size: 2.25rem;
   }
 }

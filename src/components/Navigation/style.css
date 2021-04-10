@@ -20,6 +20,15 @@
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
   }
+  .my-name, .nav-link {
+    font-size: 1.75rem;
+  }
+  .my-name {
+    margin-left: 1rem;
+  }
+  .link-name {
+    margin-right: 1rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -28,7 +37,13 @@
     padding-bottom: 2.45rem;
   }
   .my-name, .nav-link {
-    font-size: 1.75rem;
+    font-size: 2rem;
+  }
+  .my-name {
+    margin-left: 1.5rem;
+  }
+  .link-name {
+    margin-right: 1.5rem;
   }
 }
 
@@ -38,7 +53,13 @@
     padding-bottom: 3.125rem;
   }
   .my-name, .nav-link {
-    font-size: 2rem;
+    font-size: 2.5rem;
+  }
+  .my-name {
+    margin-left: 1.75rem;
+  }
+  .link-name {
+    margin-right: 1.75rem;
   }
 }
 
@@ -48,12 +69,12 @@
     padding-bottom: 4.063rem;
   }
   .my-name, .nav-link {
-    font-size: 2.75rem;
+    font-size: 3.75rem;
   }
-}
-
-@media (max-width: 325px) {
-  .my-name, .nav-link {
-    font-size: 1.25rem;
+  .my-name {
+    margin-left: 2rem;
+  }
+  .link-name {
+    margin-right: 2rem;
   }
 }
