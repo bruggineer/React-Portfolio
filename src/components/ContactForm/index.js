@@ -38,13 +38,12 @@ export default function ContactForm() {
                 <label htmlFor="userEmail">Your email address</label>
                 <input type="email" name="user_email" className="form-control" required id="userEmail1"
                     aria-describedby="emailHelp"></input>
-                <small id="emailHelp" className="form-text text-muted">I'll never share your email with anyone
-                            else.</small>
+                <small id="emailHelp" className="email-text text-muted">I'll never share your email with anyone.</small>
             </div>
 
             <div className="form-group">
                 <label htmlFor="submitButton">
-                    <button type="submit" name="submit" id="submitButton" className="btn btn-dark">Send Message</button>
+                    <button type="submit" name="submit" id="submit-button" className="submit-btn btn btn-dark">Send Message</button>
                 </label>
             </div>
         </form>

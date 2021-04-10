@@ -11,7 +11,7 @@ export default function Navigation() {
                 <Navbar collapseOnSelect bg='dark' variant='dark' expand='sm' static='top'>
                     <Navbar.Brand href='/bio' className='my-name'>Teresa Bruggeman</Navbar.Brand>
                     <Navbar.Toggle aria-controls='responsive-navbar-nav' />
-                    <Navbar.Collapse id='responsive-navbar-nav' className='justify-content-end'>
+                    <Navbar.Collapse id='responsive-navbar-nav' className='link-names justify-content-end'>
                         <Nav>
                             <Nav.Link as={Link} to='/bio' eventKey='0'>Bio</Nav.Link>
                             <Nav.Link as={Link} to='/portfolio' eventKey='1'>Portfolio</Nav.Link>
