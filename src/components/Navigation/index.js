@@ -9,7 +9,7 @@ export default function Navigation() {
         <>
             <Container fluid className='px-0'>
                 <Navbar collapseOnSelect bg='dark' variant='dark' expand='sm' static='top'>
-                    <Navbar.Brand href='/bio' className='my-name'>Teresa Bruggeman</Navbar.Brand>
+                    <Navbar.Brand as={Link} to='/bio' eventKey='3' className='my-name'>Teresa Bruggeman</Navbar.Brand>
                     <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                     <Navbar.Collapse id='responsive-navbar-nav' className='link-names justify-content-end'>
                         <Nav>
