@@ -1,11 +1,11 @@
 .submit-btn {
     background-color: #d46f15;
-    border: none;
+    border: none
 }
 
 #contact-view {
     background-color: #f5f5f5;
-    min-height: 1563px;
+    min-height: 1500px;
 }
 
 .contact-content {
@@ -36,6 +36,26 @@ h1 {
 
 #comment {
     height: 10rem;
+}
+
+section.avatar2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20rem;
+}
+
+#avatar2 {
+    width: 200px;
+    margin-bottom: 0rem;
+    background-color: #d45f15;
+    border: 8px solid #d45f15;
+}
+
+.motto {
+    font-size: 2rem;
+    margin-bottom: 0rem;
 }
 
 /* media queries for mobile-first responsive design */
