@@ -24,23 +24,25 @@ export default function Home() {
                                 <p className='skills-list'>I have experience with:
                                 <ul className='ml-3'>
                                         <li>JavaScript</li>
-                                        <li>Nodejs</li>
+                                        <li>Node.js</li>
                                         <li>Express</li>
                                         <li>React</li>
-                                        <li>MongoDb</li>
+                                        <li>MongoDB</li>
                                         <li>MySql</li>
-                                        <li>Sequelize</li>
-                                        <li>Mobile-first responsive design</li>
+                                        <li>Sequelize ORM</li>
+                                        <li>UX/UI</li>
+                                        <li>Mobile-first Responsive Design</li>
                                         <li>Agile Development</li>
+                                        <li>Git/GitHub</li>
                                     </ul>
                                 </p>
-                                <p> I'm a disciplined, adaptable, and upbeat collaborator focused on deadlines, bottom lines, and clean lines of code. My background includes user interface design, extensive client-facing communication, and code installation/customization. I'm a client-favorite conferece presenter, an ideation champ, and a competent producer of actionable documentation. I'm equally happy creating alone or as an Agile Development Team member.</p>
-                                <p>I like live music, friendly debate, and excellent wine. When my nose isn't in my screen, you'll find me outside.</p>
+                                <p> I'm a disciplined, adaptable, and upbeat collaborator focused on deadlines, bottom lines, and clean lines of code. My background includes user interface design, extensive client-facing communication, and code installation/customization. I'm a client-favorite conferece presenter, an ideation champ, and a competent producer of actionable documentation. I am a self-starter who plays well with others.</p>
+                                <p>I like live music, friendly debate, and stupid jokes. When my nose isn't in my screen, you'll find me outside.</p>
                             </div>
                         </section>
 
-                        <p className='motto text-center clearfix'>My motto: <span className="font-weight-bold cent">"There's <span
-                            className="font-italic">always</span> a way."</span>
+                        <p className='motto text-center clearfix'>My motto: <span className="font-italic">"There's <span className="font-weight-bold cent"
+                        >always</span> a way."</span>
                         </p>
                     </div>
                 </Col>
