@@ -1,10 +1,11 @@
 /* Home view styling */
 
-.jumbotron {
+#bio-view div.jumbotron {
   display: flex;
   text-align: left;
   background-color: #f5f5f5;
   margin-bottom: 0;
+  border-radius: 0;
 }
 
 /*bio typography */
