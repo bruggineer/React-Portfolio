@@ -12,7 +12,6 @@ export default function Contact() {
                     <h1>Let's talk</h1>
                     <ContactForm ></ContactForm>
                 </div>
-                <br />
             </section>
         </Container>
     )

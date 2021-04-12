@@ -12,7 +12,3 @@ body {
   height: 100vh;
   min-height: 1532px;
 }
-
-.footer {
-  z-index: 99999;
-}

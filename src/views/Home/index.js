@@ -20,7 +20,7 @@ export default function Home() {
                         <section className="bio">
                             <h1 className='greeting d-flex flex-wrap'><div className='g-1'>Hello, I'm Teresa. </div><div className="g-2">Friends call me T.</div></h1>
                             <div className="bio-blurb mt-2 ">
-                                <p>I'm a Full Stack web developer with a background in software engineering, an advanced degree in Computer Information Systems, and a certificate from the Univerisity of Arizona's Full Stack Web Development program.</p>
+                                <p>I'm a Full Stack web developer with a background in software engineering, an advanced degree in Computer Information Systems, and a certificate from the University of Arizona's Full Stack Web Development program.</p>
                                 <p className='skills-list'>I have experience with:
                                 <ul className='ml-3'>
                                         <li>JavaScript</li>
@@ -34,9 +34,10 @@ export default function Home() {
                                         <li>Mobile-first Responsive Design</li>
                                         <li>Agile Development</li>
                                         <li>Git/GitHub</li>
+                                        <li>Heroku, Netlify, GitHub Pages</li>
                                     </ul>
                                 </p>
-                                <p> I'm a disciplined, adaptable, and upbeat collaborator focused on deadlines, bottom lines, and clean lines of code. My background includes user interface design, extensive client-facing communication, and code installation/customization. I'm a client-favorite conferece presenter, an ideation champ, and a competent producer of actionable documentation. I am a self-starter who plays well with others.</p>
+                                <p> I'm a disciplined, adaptable, and upbeat collaborator focused on deadlines, bottom lines, and clean lines of code. My background includes user interface design, extensive client-facing communication, and code installation/customization. I'm a client-favorite conference presenter, an ideation champ, and a competent producer of actionable documentation. I am a self-starter who plays well with others.</p>
                                 <p>I like live music, friendly debate, and stupid jokes. When my nose isn't in my screen, you'll find me outside.</p>
                             </div>
                         </section>

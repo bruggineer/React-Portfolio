@@ -1,6 +1,7 @@
 import React from "react";
 import emailjs from 'emailjs-com';
-import './style.css'
+import headshot2 from "../../assets/images/headshot2.jpg";
+import './style.css';
 
 export default function ContactForm() {
     console.log('contactform comp is re-rendering')
@@ -37,15 +38,24 @@ export default function ContactForm() {
             <div className="form-group">
                 <label htmlFor="userEmail">Your email address</label>
                 <input type="email" name="user_email" className="form-control" required id="userEmail1"
-                    aria-describedby="emailHelp"></input>
-                <small id="emailHelp" className="email-text text-muted">I'll never share your email with anyone.</small>
+                    aria-describedby="emailhelp"></input>
+                <small id="email-help" className="email-text text-muted">I'll never share your email with anyone.</small>
             </div>
 
-            <div className="form-group">
+            <div className="form-group sub-top">
                 <label htmlFor="submitButton">
                     <button type="submit" name="submit" id="submit-button" className="submit-btn btn btn-dark">Send Message</button>
                 </label>
             </div>
+
+            <section className="avatar2">
+                <div>
+                    <img id="avatar2" className="rounded-circle" alt="Teresa Bruggeman as a kid"
+                        src={headshot2}></img>
+                </div>
+                <div className='motto text-center'>Peace.</div>
+
+            </section>
         </form>
     );
 };
