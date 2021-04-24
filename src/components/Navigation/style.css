@@ -26,7 +26,7 @@
   .my-name {
     margin-left: 1rem;
   }
-  .link-name {
+  .link-names {
     margin-right: 1rem;
   }
 }
@@ -42,7 +42,7 @@
   .my-name {
     margin-left: 1.5rem;
   }
-  .link-name {
+  .link-names {
     margin-right: 1.5rem;
   }
 }
@@ -58,7 +58,7 @@
   .my-name {
     margin-left: 1.75rem;
   }
-  .link-name {
+  .link-names {
     margin-right: 1.75rem;
   }
 }
@@ -74,7 +74,10 @@
   .my-name {
     margin-left: 2rem;
   }
-  .link-name {
+  a.nav-link#bio, a.nav-link#portfolio {
+    padding-right: 8px;
+  }
+  .link-names {
     margin-right: 2rem;
   }
 }
