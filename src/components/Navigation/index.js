@@ -13,9 +13,9 @@ export default function Navigation() {
                     <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                     <Navbar.Collapse id='responsive-navbar-nav' className='link-names justify-content-end'>
                         <Nav>
-                            <Nav.Link as={Link} to='/bio' eventKey='0'>Bio</Nav.Link>
-                            <Nav.Link as={Link} to='/portfolio' eventKey='1'>Portfolio</Nav.Link>
-                            <Nav.Link as={Link} to='/contact' eventKey='2'>Contact</Nav.Link>
+                            <Nav.Link as={Link} id='bio' to='/bio' eventKey='0'>Bio</Nav.Link>
+                            <Nav.Link as={Link} id='portfolio' to='/portfolio' eventKey='1'>Portfolio</Nav.Link>
+                            <Nav.Link as={Link} id='contact' to='/contact' eventKey='2'>Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
