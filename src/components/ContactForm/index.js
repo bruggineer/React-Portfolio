@@ -30,16 +30,16 @@ export default function ContactForm() {
             </div>
 
             <div className="form-group">
-                <label htmlFor="userName">Your name, please</label>
+                <label htmlFor="userName">Your name:</label>
                 <input type="text" name="from_name" className="form-control" required id="userName"
                     aria-describedby="nameHelp"></input>
             </div>
 
             <div className="form-group">
-                <label htmlFor="userEmail">Your email address</label>
+                <label htmlFor="userEmail">Your email address:</label>
                 <input type="email" name="user_email" className="form-control" required id="userEmail1"
                     aria-describedby="emailhelp"></input>
-                <small id="email-help" className="email-text text-muted">I'll never share your email with anyone.</small>
+                <small id="email-help" className="email-text text-muted">I promise not to share your addy.</small>
             </div>
 
             <div className="form-group sub-top">
@@ -48,12 +48,12 @@ export default function ContactForm() {
                 </label>
             </div>
 
-            <section className="avatar2">
+            <section className="avatar2 mb-5">
                 <div>
                     <img id="avatar2" className="rounded-circle" alt="Teresa Bruggeman as a kid"
                         src={headshot2}></img>
                 </div>
-                <div className='motto text-center'>Peace.</div>
+                <div className='peace text-center'>Peace.</div>
 
             </section>
         </form>
