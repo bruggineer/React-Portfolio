@@ -45,7 +45,7 @@ export default function Home() {
                         <p className='motto text-center clearfix'>My motto: <span className="font-italic">"There's <span className="font-weight-bold cent"
                         >always</span> a way!"</span>
                         </p>
-                        <p className='thought text-center clearfix mt-1 text-muted'><span className="font-italic">("But is it a <span className="font-weight-bold cent">good</span> way?!"</span> – my brain in throttle activated mode)
+                        <p className='thought text-center clearfix mt-1 text-muted'><span className="font-italic">("But is it a <span className="font-weight-bold cent">good</span> way?!"</span> – brain in throttle mode)
                         </p>
                     </div>
                 </Col>
