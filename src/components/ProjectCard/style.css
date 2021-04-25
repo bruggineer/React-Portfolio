@@ -1,4 +1,5 @@
 /* Project Card styling */
+
 h1 {
   font-size: 2rem;
 }
@@ -44,6 +45,7 @@ svg.chevron {
   left: 55%;
   z-index: 2;
   opacity: 1;
+  transition: left 1s ease-in;
 }
 
 /* slider based on Brad Hussey code at codecollege.ca */
@@ -78,8 +80,8 @@ svg.chevron {
   background-color: #523f6d;
   color: #f5f5f5;
   opacity: .85;
-  transition: transform 1s ease;
-  -webkit-transition: transform 1s ease;
+  transition: transform 1s ease-in;
+  -webkit-transition: transform 1s ease-in;
 }
 
 .slide-content-up {
@@ -109,32 +111,31 @@ svg.chevron {
 /* left panel's starting position */
 
 .slide-left .slide-content-left {
-  transform: translate(0, 0);
   -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
 }
 
 /* bottom panel's starting position */
 
 .slide-up .slide-content-up {
-  transform: translate(0, 0);
   -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
 }
 
 /* ending positions for sliders using adjacent siblings*/
 
-.trigger-slide-left:hover+.slide-left .slide-content-left, .trigger-slide-left:active+.slide-left>.slide-content-left {
-  transform: translate(-100%, 0);
+.trigger-slide-left:hover+.slide-left .slide-content-left, .trigger-slide-left:active+.slide-left>.slide-content-left, .trigger-slide-left:focus+.slide-left>.slide-content-left {
   -webkit-transform: translate(-100%, 0);
+  transform: translate(-100%, 0);
 }
 
-.trigger-slide-left:hover .chevron {
-  opacity: 0.01;
-  transition: opacity 200ms ease-in;
+.chevron:hover, .chevron:focus {
+  left: -55%;
 }
 
-.trigger-slide-left:hover~.slide-up .slide-content-up, .trigger-slide-left:active~.slide-up .slide-content-up {
-  transform: translate(0, -100%);
+.trigger-slide-left:hover~.slide-up .slide-content-up, .trigger-slide-left:active~.slide-up .slide-content-up, .trigger-slide-left:focus~.slide-up .slide-content-up {
   -webkit-transform: translate(0, -100%);
+  transform: translate(0, -100%);
   visibility: visible;
   margin-left: 0;
   margin-right: 0;
@@ -216,7 +217,6 @@ svg.chevron {
     width: 1.75rem;
     height: 1.75rem;
   }
-
 }
 
 @media (min-width:992px) {
