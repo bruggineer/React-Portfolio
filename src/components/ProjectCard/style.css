@@ -45,7 +45,7 @@ svg.chevron {
   left: 55%;
   z-index: 2;
   opacity: 1;
-  transition: left 1s ease-in;
+  transition: opacity 1.75s ease-in;
 }
 
 /* slider based on Brad Hussey code at codecollege.ca */
@@ -80,8 +80,8 @@ svg.chevron {
   background-color: #523f6d;
   color: #f5f5f5;
   opacity: .85;
-  transition: transform 1s ease-in;
-  -webkit-transition: transform 1s ease-in;
+  transition: transform .75s ease-in;
+  -webkit-transition: transform .75s ease-in;
 }
 
 .slide-content-up {
@@ -104,8 +104,8 @@ svg.chevron {
   color: #f5f5f5;
   opacity: .85;
   margin-bottom: 5px;
-  transition: transform 2s ease;
-  -webkit-transition: transform 2s ease;
+  transition: transform 2.25s ease;
+  -webkit-transition: transform 2.25s ease;
 }
 
 /* left panel's starting position */
@@ -130,7 +130,7 @@ svg.chevron {
 }
 
 .chevron:hover, .chevron:focus {
-  left: -55%;
+  opacity: 0;
 }
 
 .trigger-slide-left:hover~.slide-up .slide-content-up, .trigger-slide-left:active~.slide-up .slide-content-up, .trigger-slide-left:focus~.slide-up .slide-content-up {
