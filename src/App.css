@@ -5,17 +5,8 @@
 /* site body styles */
 
 body {
-  background-color: #fffafa;
-  color: #444;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: .9rem;
+  background-color: #343a40;
+  color: #413256;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  height: 100vh;
 }
-
-h1 {
-  font-size: 1.75rem;
-}
-
-h2 {
-  font-size: 1rem;
-}
-

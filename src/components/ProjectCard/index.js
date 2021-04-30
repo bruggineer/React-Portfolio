@@ -1,17 +1,15 @@
 import React from "react";
-import "react-sliding-pane/dist/react-sliding-pane.css";
-import Burgers from "../../assets/images/Burgers.jpg"
-import ExpenseTracker from "../../assets/images/ExpenseTracker.png";
-import FoodTrak from "../../assets/images/FoodTrak.png";
-import LootTracker from "../../assets/images/LootTracker-small.png";
-import Passwordgenerator from "../../assets/images/Passwordgenerator.png";
-import Shuffle from "../../assets/images/shuffle2.png";
-import WeatherDash from "../../assets/images/WeatherDash.png";
 import Card from "react-bootstrap/Card";
-import Container from 'react-bootstrap/Container';
-import { IconContext } from "react-icons";
+import { Col, Row, Container } from "react-bootstrap";
+import Burgers from "../../assets/images/Burgers2.jpg"
+import ExpenseTracker from "../../assets/images/ExpenseTracker58.jpg";
+import FoodTrak from "../../assets/images/FoodTrak2.jpg";
+import LootTracker from "../../assets/images/LootTracker.jpg";
+import PasswordGen from "../../assets/images/PasswordGen.png";
+import Shuffle from "../../assets/images/Shuffle2.jpg";
+import WeatherDash from "../../assets/images/WeatherDash.jpg";
 import { FaGithubAlt, FaExternalLinkSquareAlt, FaChevronCircleRight } from 'react-icons/fa';
-import Image from 'react-bootstrap/Image'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./style.css";
 
 export default function ProjectCard(props) {
@@ -22,34 +20,42 @@ export default function ProjectCard(props) {
     "ExpenseTracker": ExpenseTracker,
     "FoodTrak": FoodTrak,
     "LootTracker": LootTracker,
-    "Passwordgenerator": Passwordgenerator,
+    "PasswordGen": PasswordGen,
     "Shuffle": Shuffle,
     "WeatherDash": WeatherDash
   }
 
+  console.log('card component is rendering')
+
   return (
-    <Container id="portfolio-main" className="bg-dark" attr={props.id} data-section-name={props.img}>
-      <Card bg="dark" text="white">
-        <div className="img-box bg-dark product">
-          <Image className="card-img align-middle bg-dark" alt={props.title} src={images[props.img]} fluid />
-        </div>
-        <div className="intro bg-dark">
-          <div className="description card text-white bg-dark">
-            <h2>{props.title}</h2>
-            <p className="card-text">{props.blurb}</p>
-            <p className="small">{props.team}</p>
-            <div>
-              <IconContext.Provider value={{ color: "#fff", size: "4em", style: { padding: "2rem" }, className: "link" }}>
-                <a href={props.site} target="__blank" className="link"><FaExternalLinkSquareAlt /></a>
-                <a href={props.repo} target="__blank" className="link"><FaGithubAlt /></a>
-              </IconContext.Provider>
-            </div>
+    <Card bg="dark" text="black" className='my-auto mx-auto'>
+      <div className='card-image' style={{ backgroundImage: `url(${images[props.img]}` }}>
+        <div className='trigger-slide-left'><FaChevronCircleRight className='chevron' /></div>
+        {/* left slider */}
+        <div attr='sliding-pane' className='slide slide-left h-100'>
+          <div className='slider d-flex flex-column flex-wrap justify-content-center align-items-center slide-content-left'>
+            <h1 className='mb-0 font-weight-bolder'>{props.title}</h1>
+            <p className="blurb mt-2 mb-3">{props.blurb}</p>
+            <Container>
+              <Row className='justify-content-center'>
+                {/* stack them until hit small,  */}
+                <div className='col-10 col-sm col-lg-4'>
+                  <a className="btn btn-secondary btn-sm my-1 w-100 align-middle" href={props.site} target="__blank" style={{ color: '#f5f5f5' }}><FaExternalLinkSquareAlt id="links" className="mr-2 align-middle link-icon" /><span className="align-middle">The App</span></a>
+                </div>
+                <div className='col-10 col-sm col-lg-4' >
+                  <a className="btn btn-secondary btn-sm my-1 w-100 align-middle" href={props.repo} target="__blank" style={{ color: '#f5f5f5' }}><FaGithubAlt id="links" className="mr-2 github-icon align-middle" /><span className="align-middle">The Repo</span></a>
+                </div>
+              </Row>
+            </Container>
           </div>
-          <div className="more">
-            <FaChevronCircleRight />
-          </div>
         </div>
-      </Card>
-    </Container>
+        {/* bottom slider */}
+        <div attr='sliding-pane' className='slide slide-up h-100'>
+          <Col className='slider slide-content-up d-flex flex-column flex-wrap justify-content-center align-items-center'>
+            <p className="blurb text-monospace">{props.blurb2}</p>
+          </Col>
+        </div>
+      </div >
+    </Card >
   );
 }
