@@ -1,0 +1,135 @@
+/* site sticky footer styles */
+
+/* #linkedin-icon, #resume-icon, #github-icon, .icons, .footer-links {
+  vertical-align: middle;
+} */
+
+.container, .container-fluid, .container-lg, .container-md, container-sm, container-xs {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.footer {
+  position: static;
+  bottom: 0;
+  left: 0;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  background-color: #a3b745;
+  text-align: center;
+}
+
+.cta {
+  color: #f5f5f5;
+  font-size: 1.25rem;
+}
+
+a:visited, a:hover, a:active {
+  color: #413256;
+  text-decoration: none;
+}
+
+#github-icon {
+  padding-left: 0;
+  height: 48px;
+  width: 40px;
+}
+
+#resume-icon, #linkedin-icon {
+  padding-left: 1rem;
+  height: 48px;
+  width: 56px;
+}
+
+/*on screens larger than xs, columns unstack so pull contact links to left */
+
+@media (min-width: 576px) {
+  .footer {
+    padding-top: 1.375rem;
+    padding-bottom: 1.375rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: left;
+  }
+  #github-icon {
+    padding-left: 0;
+    height: 58px;
+    width: 50px;
+  }
+  #resume-icon, #linkedin-icon {
+    padding-left: 1rem;
+    height: 58px;
+    width: 66px;
+  }
+  .cta {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding-top: 1.19rem;
+    padding-bottom: 1.19rem;
+    text-align: left;
+  }
+  .cta {
+    font-size: 1.75rem;
+  }
+  #github-icon {
+    padding-left: 0;
+    height: 58px;
+    width: 58px;
+  }
+  #resume-icon, #linkedin-icon {
+    padding-left: 1rem;
+    height: 58px;
+    width: 74px;
+  }
+}
+
+/* @media (min-width: 992px) {
+  .footer {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    text-align: left;
+  }
+  img.icons {
+    padding-left: 1.25rem;
+  }
+  #github-icon {
+    padding-left: 0;
+    height: 62px;
+    width: 62px;
+  }
+  #resume-icon, #linkedin-icon {
+    padding-left: 1rem;
+    height: 62px;
+    width: 78px;
+  }
+} */
+
+/* @media (min-width: 1200px) {
+  .footer {
+    padding-top: 3.25rem;
+    padding-bottom: 3.25rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: left;
+  }
+  img.icons {
+    padding-left: 1.5rem;
+  }
+  #github-icon {
+    padding-left: 0;
+    height: 72px;
+    width: 72px;
+  }
+  #resume-icon, #linkedin-icon {
+    padding-left: 1rem;
+    height: 72px;
+    width: 88px;
+  }
+  .cta {
+    font-size: 2.25rem;
+  }
+} */
