@@ -33,8 +33,8 @@ export default function ProjectCard(props) {
         <div className='trigger-slide-left'><FaChevronCircleRight className='chevron' /></div>
         {/* left slider */}
         <div attr='sliding-pane' className='slide slide-left h-100'>
-          <div className='slider d-flex flex-column flex-wrap justify-content-center align-items-center slide-content-left'>
-            <h1 className='mb-0 font-weight-bolder'>{props.title}</h1>
+          <div className='slider slide-content-left'>
+            <h1 className='mt-1 mb-0 font-weight-bolder'>{props.title}</h1>
             <p className="blurb mt-2 mb-3">{props.blurb}</p>
             <Container>
               <Row className='justify-content-center'>
@@ -51,7 +51,7 @@ export default function ProjectCard(props) {
         </div>
         {/* bottom slider */}
         <div attr='sliding-pane' className='slide slide-up h-100'>
-          <Col className='slider slide-content-up d-flex flex-column flex-wrap justify-content-center align-items-center'>
+          <Col className='slider slide-content-up'>
             <p className="blurb text-monospace">{props.blurb2}</p>
           </Col>
         </div>
