@@ -16,7 +16,7 @@ function App(projects) {
         <Route path="/bio" component={Home} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
-        <Route exact path="/" component={Home} />
+        <Route path="/" component={Home} />
       </Switch>
       <Footer />
     </Router>
