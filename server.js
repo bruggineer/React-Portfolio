@@ -6,17 +6,10 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-//code for dev
+//code for static files
 app.use(express.static(path.join(__dirname, 'public')))
 app.use(express.static(path.join(__dirname, 'src', 'assets')))
-
-
-//code for gh-pages build
-app.use(express.static(path.join(__dirname, "..", "build")));
-
-app.use((req, res, next) => {
-    res.sendFile(path.join(__dirname, "..", "build", "react-app", "index.html"));
-});
+app.use(express.static("public"));
 
 const port = process.env.PORT || 5000;
 app.listen(port);
