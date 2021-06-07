@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.efdddfcc.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.ff8c483f.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.ff8c483f.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.af827708.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.af827708.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/React-Portfolio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.5d1a1d69.chunk.js": "/React-Portfolio/static/js/2.5d1a1d69.chunk.js",
+    "static/js/2.5d1a1d69.chunk.js.map": "/React-Portfolio/static/js/2.5d1a1d69.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/React-Portfolio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.efdddfcc.chunk.css.map": "/React-Portfolio/static/css/main.efdddfcc.chunk.css.map",
+    "static/js/2.5d1a1d69.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.5d1a1d69.chunk.js.LICENSE.txt",
+    "static/media/Bruggeman-Resume-v2.1.624b2d44.pdf": "/React-Portfolio/static/media/Bruggeman-Resume-v2.1.624b2d44.pdf",
+    "static/media/Burgers2.3ddb635e.jpg": "/React-Portfolio/static/media/Burgers2.3ddb635e.jpg",
+    "static/media/ExpenseTracker58.e363cea6.jpg": "/React-Portfolio/static/media/ExpenseTracker58.e363cea6.jpg",
+    "static/media/FoodTrak2.ab70fe56.jpg": "/React-Portfolio/static/media/FoodTrak2.ab70fe56.jpg",
+    "static/media/Headshot-BW.f546360e.jpg": "/React-Portfolio/static/media/Headshot-BW.f546360e.jpg",
+    "static/media/LootTracker.bd3cc44a.jpg": "/React-Portfolio/static/media/LootTracker.bd3cc44a.jpg",
+    "static/media/PasswordGen.9674f63d.png": "/React-Portfolio/static/media/PasswordGen.9674f63d.png",
+    "static/media/Shuffle2.349acdbd.jpg": "/React-Portfolio/static/media/Shuffle2.349acdbd.jpg",
+    "static/media/WeatherDash.e887ad71.jpg": "/React-Portfolio/static/media/WeatherDash.e887ad71.jpg",
+    "static/media/headshot2.6fdba847.jpg": "/React-Portfolio/static/media/headshot2.6fdba847.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af827708.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.5d1a1d69.chunk.js",
+    "static/css/main.efdddfcc.chunk.css",
+    "static/js/main.ff8c483f.chunk.js"
+  ]
+}
