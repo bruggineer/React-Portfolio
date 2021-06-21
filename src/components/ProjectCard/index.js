@@ -13,7 +13,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./style.css";
 
 export default function ProjectCard(props) {
-  console.log(props)
 
   const images = {
     "Burgers": Burgers,

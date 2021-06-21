@@ -12,8 +12,8 @@ function Footer() {
 
   return (
     <Container fluid className="footer">
-      <Row px-1 className="px-1">
-        <Col sm={6} d-flex flex-column footer-contact>
+      <Row className="px-1">
+        <Col sm={6} className="d-flex flex-column footer-contact">
           <div>
             <a className="cta align-left" href="tel:503-320-2226" target="_self">503.320.2226</a>
           </div>
@@ -22,19 +22,6 @@ function Footer() {
           </div>
         </Col>
         <Col sm={6} className="d-flex justify-content-center justify-content-sm-end align-items-center footer-links list-unstyled">
-          <a
-            href="https://github.com/bruggineer"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              id="github-icon"
-              className="pt-2 pt-md-0 icons"
-              src={Octocat}
-              alt="GitHub Logo link"
-              height="60px"
-            ></img>
-          </a>
           <a
             href={Resume}
             target="_blank"
@@ -48,6 +35,20 @@ function Footer() {
               height="60px"
             ></img>
           </a>
+          <a
+            href="https://github.com/bruggineer"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              id="github-icon"
+              className="pt-2 pt-md-0 icons"
+              src={Octocat}
+              alt="GitHub Logo link"
+              height="60px"
+            ></img>
+          </a>
+
           <a
             href="https://www.linkedin.com/in/tsbruggeman"
             target="_blank"

@@ -21,6 +21,7 @@
   letter-spacing: 0.02em;
   font-size: 1.125rem;
   line-height: 1.75rem;
+  margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
@@ -100,6 +101,9 @@ p.brain {
   .greeting {
     font-size: 2rem;
   }
+  .bio {
+    margin-top: 2.75rem;
+  }
   .bio-blurb {
     font-size: 1.3125rem;
     line-height: 1.99rem;
@@ -126,9 +130,14 @@ p.brain {
 
 @media(min-width: 1200px) {
   .greeting {
-    font-size: 2.25rem;
+    font-size: 3rem;
+  }
+  .bio-blurb {
+    font-size: 2rem;
+    line-height: 2.98rem;
+    margin-bottom: 2.5rem;
   }
   p.motto {
-    font-size: 1.75rem;
+    font-size: 2.5rem;
   }
 }
