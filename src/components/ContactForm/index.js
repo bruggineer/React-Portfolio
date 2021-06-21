@@ -40,7 +40,7 @@ export default function ContactForm() {
                 </div>
 
                 <div className="d-flex col flex-column form-group">
-                    <label htmlFor="userEmail" className='row'>Your email address:</label>
+                    <label htmlFor="userEmail1" className='row'>Your email address:</label>
                     <input type="email" name="user_email" className="row form-control" required id="userEmail1"
                         aria-describedby="emailhelp"></input>
                     <small id="email-help" className="row email-text text-muted">I promise not to share your addy.</small>

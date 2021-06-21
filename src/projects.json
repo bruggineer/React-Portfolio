@@ -6,7 +6,7 @@
     "buttontitle": "The ",
     "repo": "https://github.com/bruggineer/LootTracker",
     "site": "https://loot-trackerz.herokuapp.com/home",
-    "blurb": "Gamers manage their game purchasing power through a dynamic Wish List utilizing a custom Chrome extension on Stream. Budget charts help gamers stretch their gaming dollars.",
+    "blurb": "Gamers manage their game purchasing power through a dynamic Wish List utilizing a custom Chrome extension on Stream.",
     "blurb2": "Full Stack, React, Node.js, Express, MySQL, Sequelize, Chrome Extension, RESTful APIs, Material UI, JawsDB, Heroku deployment"
   },
   {
@@ -66,7 +66,7 @@
     "buttontitle": "Password",
     "repo": "https://github.com/bruggineer/Password-Generator",
     "site": "https://bruggineer.github.io/Password-Generator/",
-    "blurb": "Browser-based random password generator uses selected criteria. Dynamically updates HTML and CSS with JavaScript.",
+    "blurb": "Browser-based password generator uses selected criteria. Dynamically updates HTML and CSS with JavaScript.",
     "blurb2": "Browser-Based, JavaScript, HTML, CSS, Responsive Design"
   }
 ]
