@@ -1,9 +1,4 @@
-/* site footer styles */
-
-.container, .container-fluid, .container-lg, .container-md, container-sm, container-xs {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
+/* footer styles */
 
 .footer {
   position: static;
@@ -20,24 +15,27 @@
   font-size: 1.25rem;
 }
 
+#resume-icon {
+  height: 48px;
+  width: 48px;
+}
+
+#github-icon, #linkedin-icon {
+  margin-left: 1rem;
+  height: 48px;
+  width: 48px;
+}
+
+#github-icon {
+  margin-right: .75rem;
+}
+
 a:visited, a:hover, a:active {
   color: #413256;
   text-decoration: none;
 }
 
-#resume-icon {
-  padding-left: 0;
-  height: 48px;
-  width: 40px;
-}
-
-#github-icon, #linkedin-icon {
-  padding-left: 1rem;
-  height: 48px;
-  width: 56px;
-}
-
-/*on screens larger than xs, columns unstack so pull contact links to left */
+/* media queries for mobile-first responsive design */
 
 @media (min-width: 576px) {
   .footer {
@@ -46,14 +44,12 @@ a:visited, a:hover, a:active {
     text-align: left;
   }
   #resume-icon {
-    padding-left: 0;
     height: 58px;
-    width: 50px;
+    width: 58px;
   }
   #github-icon, #linkedin-icon {
-    padding-left: 1rem;
     height: 58px;
-    width: 66px;
+    width: 58px;
   }
   .cta {
     font-size: 1.5rem;
@@ -61,20 +57,7 @@ a:visited, a:hover, a:active {
 }
 
 @media (min-width: 768px) {
-  .footer {
-    text-align: left;
-  }
   .cta {
     font-size: 1.75rem;
-  }
-  #resume-icon {
-    padding-left: 0;
-    height: 58px;
-    width: 58px;
-  }
-  #github-icon, #linkedin-icon {
-    padding-left: 1rem;
-    height: 58px;
-    width: 74px;
   }
 }

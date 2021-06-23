@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { Col, Row, Container } from "react-bootstrap";
+import { FaGithubAlt, FaExternalLinkSquareAlt, FaChevronCircleRight } from 'react-icons/fa';
 import Burgers from "../../assets/images/Burgers2.jpg"
 import ExpenseTracker from "../../assets/images/ExpenseTracker58.jpg";
 import FoodTrak from "../../assets/images/FoodTrak2.jpg";
@@ -8,7 +9,6 @@ import LootTracker from "../../assets/images/LootTracker.jpg";
 import PasswordGen from "../../assets/images/PasswordGen.png";
 import Shuffle from "../../assets/images/Shuffle2.jpg";
 import WeatherDash from "../../assets/images/WeatherDash.jpg";
-import { FaGithubAlt, FaExternalLinkSquareAlt, FaChevronCircleRight } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./style.css";
 
@@ -24,10 +24,8 @@ export default function ProjectCard(props) {
     "WeatherDash": WeatherDash
   }
 
-  console.log('card component is rendering')
-
   return (
-    <Card bg="dark" text="black" className='my-auto mx-auto'>
+    <Card text="black" className='my-auto mx-auto'>
       <div className='card-image' style={{ backgroundImage: `url(${images[props.img]}` }}>
         <div className='trigger-slide-left'><FaChevronCircleRight className='chevron' /></div>
         {/* left slider */}
