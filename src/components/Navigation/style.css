@@ -1,4 +1,6 @@
-.navbar-dark {
+/* navigation styles */
+
+.navbar {
   background-color: #413256 !important;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -15,36 +17,49 @@
   opacity: 0.5;
 }
 
+/* media queries for mobile-first responsive design */
+
 @media (min-width: 576px) {
+
   .navbar-dark {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
+
   .my-name, .nav-link {
     font-size: 1.5rem;
   }
+
 }
 
 @media (min-width: 768px) {
+
   .my-name, .nav-link {
     font-size: 1.75rem;
   }
+
   .my-name {
     margin-left: 1rem;
   }
+
   .link-names {
     margin-right: 1rem;
   }
+
 }
 
 @media (min-width: 992px) {
+
   .my-name, .nav-link {
     font-size: 2rem;
   }
+
   .my-name {
     margin-left: 1.5rem;
   }
+
   .link-names {
     margin-right: 1.5rem;
   }
+
 }

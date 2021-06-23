@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 import './style.css';
 
 export default function Navigation() {
-    console.log('nav comp is re-rendering')
+
     return (
         <>
             <Container fluid className='px-0'>
-                <Navbar collapseOnSelect bg='dark' variant='dark' expand='sm' static='top'>
+                <Navbar collapseOnSelect variant='dark' expand='sm' static='top'>
                     <Navbar.Brand as={Link} to='/bio' eventkey='3' className='my-name'>Teresa Bruggeman</Navbar.Brand>
                     <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                     <Navbar.Collapse id='responsive-navbar-nav' className='link-names justify-content-end'>

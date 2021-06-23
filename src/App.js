@@ -1,8 +1,5 @@
 import React, { Suspense, lazy } from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-// import Home from "./views/Home";
-// import Portfolio from "./views/Portfolio";
-// import Contact from "./views/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import "./App.css";

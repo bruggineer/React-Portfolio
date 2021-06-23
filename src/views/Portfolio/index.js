@@ -1,14 +1,13 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import ProjectCard from '../../components/ProjectCard';
 import projects from '../../projects.json';
-import { Container } from 'react-bootstrap';
 
 export default function Portfolio() {
-    console.log('portfolio view is rendering')
 
     return (
         <>
-            <Container fluid="xl" className='px-0 no-gutters mx-auto' id="portfolio-view">
+            <Container fluid="xl" className='px-0 mx-auto' id="portfolio-view">
                 <div>
                     {projects.map(project => (
                         <ProjectCard
