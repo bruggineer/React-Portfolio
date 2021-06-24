@@ -1,7 +1,9 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import headshot from "../../assets/images/Headshot-BW.jpg"
-import "./style.css"
+import headshot from "../../assets/images/Headshot-BW.jpg";
+import checked from "../../assets/images/checked.png";
+import skills from '../../assets/data/skills.json';
+import "./style.css";
 
 export default function Home() {
 
@@ -20,24 +22,18 @@ export default function Home() {
                             <p>I'm a Full Stack web developer with a background in software engineering, an advanced degree in Computer Information Systems, and a certificate from the University of Arizona's Full Stack Web Development program.</p>
                             <p className='skills-list'>My skill set includes:</p>
                             <div>
-                                <ul className='ml-3'>
-                                    <li>JavaScript</li>
-                                    <li>Node.js</li>
-                                    <li>Express</li>
-                                    <li>React</li>
-                                    <li>HTML & CSS</li>
-                                    <li>Unix, Linux</li>
-                                    <li>MongoDB</li>
-                                    <li>MySql</li>
-                                    <li>Sequelize ORM</li>
-                                    <li>UX/UI</li>
-                                    <li>Mobile-First Responsive Design</li>
-                                    <li>Agile Development</li>
-                                    <li>GitHub</li>
-                                    <li>Heroku, Netlify, GH Pages</li>
+                                <ul className='ml-0 pl-0'>
+                                    <div>
+                                        {skills.map((skill) => (
+                                            <div key={skill}>
+                                                <img id="checkmark-icon" className="check-mark" src={checked} alt="checkmark" height="16px"></img>
+                                                <span className="ml-3">{skill}</span>
+                                            </div>
+                                        ))}
+                                    </div>
                                 </ul>
                             </div>
-                            <p> I'm a disciplined, adaptable, and upbeat collaborator focused on deadlines, bottom lines, and clean lines of code. As a Full Stack bootcamp graduate, I'm enthusiastically learning and applying more about all aspects of web development every day. My background includes UX/UI design, bespoke web sites, extensive client-facing communication, and enterprise code installation/customization. I'm a client-favorite conference presenter, an ideation champ, and a competent producer of actionable documentation. I am a self-starter who plays extremely well with others.</p>
+                            <p> I'm a disciplined, adaptable, and upbeat collaborator focused on deadlines, bottom lines, and clean lines of code. My background includes UX/UI design, bespoke web sites, extensive client-facing communication, and enterprise code installation/customization. I'm a client-favorite conference presenter, an ideation champ, and a competent producer of actionable documentation. I am a self-starter who plays extremely well with others and, as a Full Stack bootcamp graduate, I enthusiastically seek, absorb, and apply more knowledge about all aspects of web development every day.</p>
                             <p>I like live music, friendly debate, and stupid jokes. When my nose isn't in my screen, you'll find me outside.</p>
                         </div>
                     </section>

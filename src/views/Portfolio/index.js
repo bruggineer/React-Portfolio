@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import ProjectCard from '../../components/ProjectCard';
-import projects from '../../projects.json';
+import projects from '../../assets/data/projects.json';
 
 export default function Portfolio() {
 

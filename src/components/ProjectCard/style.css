@@ -76,8 +76,8 @@ svg.chevron {
   bottom: -70%;
   width: 100%;
   text-align: center;
-  max-height: 66%;
-  padding: 20% 10%;
+  height: 66%;
+  padding: 15% 10%;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   background-color: #523f6d;
@@ -162,7 +162,7 @@ svg.chevron {
     height: 1.5rem;
   }
   .btn-sm {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
 }

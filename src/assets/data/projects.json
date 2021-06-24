@@ -17,7 +17,7 @@
     "repo": "https://github.com/bruggineer/FoodTrak",
     "site": "https://trackfood.herokuapp.com/",
     "blurb": "Users track calories and share through a dieting forum. Powered by Node.js, RESTful APIs and MySql with Bootstrap styling.",
-    "blurb2": "Full Stack, jQuery, Node.js, Express, MySql, Sequelize ORM, Password hashing, Handlebars, RESTful APIs, Axios, Responsive Mobile-first CSS, MVC modularization, JawsDB, Heroku deployment"
+    "blurb2": "Full Stack, Node.js, Express, MySql, Sequelize ORM, Password hashing, Handlebars, RESTful APIs, Axios, Responsive Design, MVC modularization, Heroku deployment"
   },
   {
     "id": 3,
@@ -66,7 +66,7 @@
     "buttontitle": "Password",
     "repo": "https://github.com/bruggineer/Password-Generator",
     "site": "https://bruggineer.github.io/Password-Generator/",
-    "blurb": "Browser-based password generator uses selected criteria. Dynamically updates HTML and CSS with JavaScript.",
+    "blurb": "Browser-based password generator dynamically updates HTML and CSS with JavaScript.",
     "blurb2": "Browser-Based, JavaScript, HTML, CSS, Responsive Design"
   }
 ]
