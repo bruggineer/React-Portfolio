@@ -65,15 +65,12 @@ p.brain {
 /* media queries for mobile-first responsive design */
 
 @media(min-width: 576px) {
-
   .jumbotron {
     text-align: justify;
   }
-
   .avatar {
     display: inline;
   }
-
   #avatar {
     float: left;
     margin-right: 2rem;
@@ -81,78 +78,67 @@ p.brain {
     shape-outside: circle();
     border-radius: 50%;
   }
-
   .greeting {
     margin: 0;
     font-size: 1.75rem;
     justify-content: left;
   }
-
   .g-1 {
     margin-left: -1.4rem;
     margin-right: 0;
   }
-
   .g-2 {
     margin-left: 0;
   }
-
 }
 
 @media(min-width: 768px) {
-
   .greeting {
     font-size: 2rem;
   }
-
   .bio {
     margin-top: 2.75rem;
   }
-
   .bio-blurb {
     font-size: 1.3125rem;
     line-height: 1.99rem;
     margin-bottom: 2.5rem;
   }
-  
   p.motto {
     font-size: 1.25rem;
   }
-
+  .check-mark {
+    height: 1.25rem;
+  }
 }
 
 @media(min-width: 992px) {
-
   .greeting {
     font-size: 2rem;
   }
-
   .bio-blurb {
     font-size: 1.5rem;
     line-height: 2.1rem;
     margin-bottom: 2.5rem;
   }
-
   p.motto {
     font-size: 1rem;
   }
-
 }
 
 @media(min-width: 1200px) {
-
   .greeting {
     font-size: 3rem;
   }
-
   .bio-blurb {
     font-size: 2rem;
     line-height: 2.98rem;
     margin-bottom: 2.5rem;
   }
-
   p.motto {
     font-size: 1.75rem;
   }
-  
+  .check-mark {
+    height: 1.5rem;
+  }
 }

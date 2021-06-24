@@ -35,6 +35,10 @@ a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
+.icon-call-out {
+  font-size: .5rem;
+  margin-top: 1.25rem;
+}
 /* media queries for mobile-first responsive design */
 
 @media (min-width: 576px) {
