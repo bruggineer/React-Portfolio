@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.99d66da9.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.f29170b5.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.f29170b5.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.d24b37a4.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.d24b37a4.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.cf6f8185.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.cf6f8185.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/React-Portfolio/static/css/2.4c97ca4f.chunk.css",
@@ -26,7 +26,7 @@
     "static/css/5.84cf3224.chunk.css.map": "/React-Portfolio/static/css/5.84cf3224.chunk.css.map",
     "static/css/main.99d66da9.chunk.css.map": "/React-Portfolio/static/css/main.99d66da9.chunk.css.map",
     "static/js/2.e8c9401c.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.e8c9401c.chunk.js.LICENSE.txt",
-    "static/media/Bruggeman-Resume-v2.1.624b2d44.pdf": "/React-Portfolio/static/media/Bruggeman-Resume-v2.1.624b2d44.pdf",
+    "static/media/Bruggeman-Resume-v2.2.bb6d1af6.pdf": "/React-Portfolio/static/media/Bruggeman-Resume-v2.2.bb6d1af6.pdf",
     "static/media/Burgers2.b0c05c75.jpg": "/React-Portfolio/static/media/Burgers2.b0c05c75.jpg",
     "static/media/ExpenseTracker58.e363cea6.jpg": "/React-Portfolio/static/media/ExpenseTracker58.e363cea6.jpg",
     "static/media/FoodTrak2.b1fff8a6.jpg": "/React-Portfolio/static/media/FoodTrak2.b1fff8a6.jpg",
@@ -41,6 +41,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.e8c9401c.chunk.js",
     "static/css/main.99d66da9.chunk.css",
-    "static/js/main.f29170b5.chunk.js"
+    "static/js/main.d24b37a4.chunk.js"
   ]
 }
