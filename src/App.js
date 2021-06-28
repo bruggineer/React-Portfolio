@@ -4,9 +4,9 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import "./App.css";
 
-const Home = lazy(() => import('./views/Home'));
-const Portfolio = lazy(() => import('./views/Portfolio'));
-const Contact = lazy(() => import('./views/Contact'));
+const Home = lazy(() => import('./pages/Home'));
+const Portfolio = lazy(() => import('./pages/Portfolio'));
+const Contact = lazy(() => import('./pages/Contact'));
 
 
 function App(projects) {
@@ -19,7 +19,7 @@ function App(projects) {
           <Route path="/bio" component={Home} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/contact" component={Contact} />
-          <Route path="/" component={Home} />
+          <Route exact path="/" component={Home} />
         </Switch>
         <Footer />
       </Suspense>

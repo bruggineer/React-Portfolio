@@ -63,7 +63,7 @@ function Footer() {
           </a>
         </Col>
       </Row>
-      <div className="icon-call-out d-flex justify-content-center align-items-center">Checkmark icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      <div className="icon-call-out d-flex justify-content-center align-items-center">Checkmark icon made by&nbsp;<a href="https://www.freepik.com">Freepik</a>&nbsp;from <a href="https://www.flaticon.com/">&nbsp;www.flaticon.com</a></div>
     </Container>
   );
 }

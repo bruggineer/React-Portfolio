@@ -1,5 +1,9 @@
 /* footer styles */
 
+a {
+  color: #231F33;
+}
+
 .footer {
   position: static;
   bottom: 0;
@@ -11,7 +15,7 @@
 }
 
 .cta {
-  color: #f5f5f5;
+  color: #231F33;
   font-size: 1.25rem;
 }
 
@@ -31,7 +35,7 @@
 }
 
 a:visited, a:hover, a:active {
-  color: #413256;
+  color: #231F33;
   text-decoration: none;
 }
 
@@ -39,6 +43,7 @@ a:visited, a:hover, a:active {
   font-size: .5rem;
   margin-top: 1.25rem;
 }
+
 /* media queries for mobile-first responsive design */
 
 @media (min-width: 576px) {
