@@ -20,13 +20,13 @@ export default function Home() {
                         <h1 className='greeting d-flex flex-wrap'><div className='g-1'>Hello, I'm Teresa. </div><div className="g-2">Friends call me T.</div></h1>
                         <div className="bio-blurb">
                             <p>I'm a Full Stack web developer with a background in software engineering, an advanced degree in Computer Information Systems, and a certificate from the University of Arizona's Full Stack Web Development program.</p>
-                            <p className='skills-list'>My skill set includes:</p>
+                            <h3 className='skills-list'>My skill set includes:</h3>
                             <div>
                                 <ul className='ml-0 pl-0'>
                                     <div>
                                         {skills.map((skill) => (
                                             <div key={skill}>
-                                                <img id="checkmark-icon" className="check-mark" src={checked} alt="checkmark" height="16px"></img>
+                                                <img id="checkmark-icon" className="check-mark" src={checked} alt="checkmark" height="16px" width="16px"></img>
                                                 <span className="ml-3">{skill}</span>
                                             </div>
                                         ))}

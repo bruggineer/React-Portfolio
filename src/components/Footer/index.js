@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import { Col, Row } from "react-bootstrap";
-import Resume from "../../assets/Bruggeman-Resume-v2.2.pdf";
+import Resume from "../../assets/Teresa Bruggeman- Resume-v2.3.pdf";
 import ResumeIcon from "../../assets/resume-64.png";
 import Octocat from "../../assets/github-8-128.png"
 import LinkedIn from "../../assets/linkedin-6-128.png"
@@ -63,7 +63,7 @@ function Footer() {
           </a>
         </Col>
       </Row>
-      <div className="icon-call-out d-flex justify-content-center align-items-center">Checkmark icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      <div className="icon-call-out d-flex justify-content-center align-items-center">Checkmark icon made by&nbsp;<a href="https://www.freepik.com">Freepik</a>&nbsp;from <a href="https://www.flaticon.com/">&nbsp;www.flaticon.com</a></div>
     </Container>
   );
 }
