@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.ffd0c841.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.a770a8c5.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.a770a8c5.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.eb163b2b.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.eb163b2b.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.e73c094e.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.e73c094e.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/React-Portfolio/static/css/2.4c97ca4f.chunk.css",
@@ -26,13 +26,13 @@
     "static/css/5.20435bf1.chunk.css.map": "/React-Portfolio/static/css/5.20435bf1.chunk.css.map",
     "static/css/main.ffd0c841.chunk.css.map": "/React-Portfolio/static/css/main.ffd0c841.chunk.css.map",
     "static/js/2.e8c9401c.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.e8c9401c.chunk.js.LICENSE.txt",
-    "static/media/Bruggeman-Resume-v2.2.2286c1b7.pdf": "/React-Portfolio/static/media/Bruggeman-Resume-v2.2.2286c1b7.pdf",
     "static/media/Burgers2.b0c05c75.jpg": "/React-Portfolio/static/media/Burgers2.b0c05c75.jpg",
     "static/media/ExpenseTracker58.e363cea6.jpg": "/React-Portfolio/static/media/ExpenseTracker58.e363cea6.jpg",
     "static/media/FoodTrak2.b1fff8a6.jpg": "/React-Portfolio/static/media/FoodTrak2.b1fff8a6.jpg",
     "static/media/LootTracker.e91dc9c0.jpg": "/React-Portfolio/static/media/LootTracker.e91dc9c0.jpg",
     "static/media/PasswordGen.857c2362.png": "/React-Portfolio/static/media/PasswordGen.857c2362.png",
     "static/media/Shuffle2.349acdbd.jpg": "/React-Portfolio/static/media/Shuffle2.349acdbd.jpg",
+    "static/media/Teresa Bruggeman- Resume-v2.3.6687d935.pdf": "/React-Portfolio/static/media/Teresa Bruggeman- Resume-v2.3.6687d935.pdf",
     "static/media/WeatherDash.aff80def.jpg": "/React-Portfolio/static/media/WeatherDash.aff80def.jpg",
     "static/media/headshot2.ab77db0e.jpg": "/React-Portfolio/static/media/headshot2.ab77db0e.jpg"
   },
@@ -41,6 +41,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.e8c9401c.chunk.js",
     "static/css/main.ffd0c841.chunk.css",
-    "static/js/main.a770a8c5.chunk.js"
+    "static/js/main.eb163b2b.chunk.js"
   ]
 }
