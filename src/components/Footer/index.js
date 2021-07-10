@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import { Col, Row } from "react-bootstrap";
-import Resume from "../../assets/Bruggeman-Resume-v2.2.pdf";
+import Resume from "../../assets/Teresa Bruggeman- Resume-v2.3.pdf";
 import ResumeIcon from "../../assets/resume-64.png";
 import Octocat from "../../assets/github-8-128.png"
 import LinkedIn from "../../assets/linkedin-6-128.png"
